@@ -1,1 +1,1 @@
-# SalesManagementSystemSatellite
+Sales Management System (Satellite)
