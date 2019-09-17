@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.icm.Main" >
+
+    <Button
+        android:id="@+id/btnser2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/check_mark"
+        android:text="@string/P401" />
+
+    <Button
+        android:id="@+id/btnser3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnser2"
+        android:layout_alignRight="@+id/btnser2"
+        android:layout_below="@+id/btnser2"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/target"
+        android:text="@string/P402" />
+
+    <Button
+        android:id="@+id/btnser1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnser3"
+        android:layout_alignRight="@+id/btnser3"
+        android:layout_below="@+id/btnser3"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/process"
+        android:text="@string/P403" />
+
+</RelativeLayout>

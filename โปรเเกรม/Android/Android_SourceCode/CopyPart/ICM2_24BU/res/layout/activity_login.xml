@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="false"
+    android:background="@drawable/bg"
+    android:clipToPadding="false"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.icm.Login" >
+
+    <TextView
+        android:id="@+id/txtUser_Depastment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:text="@string/P101"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/txtUser_Username"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/txtUser_Depastment"
+        android:layout_marginTop="44dp"
+        android:background="@color/C2"
+        android:ems="10"
+        android:gravity="center_vertical|center"
+        android:hint="@string/P103"
+        android:inputType="textPersonName"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtUser_Depastment"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_marginBottom="11dp"
+        android:singleLine="true"
+        android:text="@string/P100"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25sp"
+        android:typeface="monospace" 
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/txtUser_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/txtUser_Username"
+        android:layout_alignRight="@+id/txtUser_Username"
+        android:layout_below="@+id/txtUser_Username"
+        android:layout_marginTop="11dp"
+        android:background="@color/C2"
+        android:ems="10"
+        android:gravity="center_vertical|center"
+        android:hint="@string/P104"
+        android:inputType="textPassword"
+        android:password="true"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtUser_Password"
+        android:layout_alignRight="@+id/txtUser_Password"
+        android:layout_below="@+id/txtUser_Password"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/round"
+        android:shadowColor="@color/C4"
+        android:text="@string/P105" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtUser_Depastment"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/txtUser_Depastment"
+        android:gravity="center"
+        android:text="@string/Cd"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="11sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/textView1"
+        android:layout_marginBottom="39dp"
+        android:src="@drawable/ipm" />
+
+</RelativeLayout>

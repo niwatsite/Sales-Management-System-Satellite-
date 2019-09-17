@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.icm.MapCurrent" >
+
+     <item
+        android:id="@+id/action_Main"
+        android:orderInCategory="100"
+        android:title="@string/action_settings0"
+        app:showAsAction="never"/>
+    
+
+    <item
+        android:id="@+id/action_Proshow"
+        android:orderInCategory="100"
+        android:title="@string/action_settings1"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_Model"
+        android:orderInCategory="100"
+        android:title="@string/action_settings2"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_Order"
+        android:orderInCategory="100"
+        android:title="@string/action_settings3"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_Service"
+        android:orderInCategory="100"
+        android:title="@string/action_settings4"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_Exit"
+        android:orderInCategory="100"
+        android:title="@string/action_settings5"
+        app:showAsAction="never"/>
+
+</menu>

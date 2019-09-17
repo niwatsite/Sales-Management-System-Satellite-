@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp">
+
+	<TextView
+	    android:id="@+id/ColCustomerID"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="30dp"
+	    android:layout_weight="0.14"
+	    android:text="CustomerID"
+	    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	<TextView
+	    android:id="@+id/ColFName"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.14"
+	    android:text="Fname"
+	    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	<TextView
+	    android:id="@+id/ColLName"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginRight="30dp"
+	    android:layout_weight="0.17"
+	    android:text="Lname"
+	    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

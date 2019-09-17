@@ -1,0 +1,178 @@
+/*
+
+	project: Social Community Management
+	author:  Luka Cvrk
+	www.solucija.com
+
+*/
+
+*{margin:0;padding:0;outline:0}
+body { font: 11px/18px Georgia, Palatino, "Times New Roman", Times, Serif; background: #f4f4f4 url(../images/bg.jpg) no-repeat center top; color: #777; }
+
+a { text-decoration: none; color: #89A213; }
+a:hover { color: #556314; }
+
+p  {
+	margin: 0 0 15px;
+	line-height: 1.6em;
+	text-align: center;
+	font-size: 12px;
+}
+h1 {
+	float: left;
+	width: 320px;
+	line-height: 1.5em;
+	font-size: 2.7em;
+	color: #FFF;
+	margin: 0 0 20px;
+	text-shadow: #89A213 1px 1px 1px;
+	text-align: center;
+}
+h2 {
+	margin: 0 0 15px;
+	font-size: 1.6em;
+	text-align: center;
+	color: #000;
+}
+h3 {
+	margin: 0 0 7px;
+	font-size: 1.3em;
+	clear: both;
+	color: #000;
+	line-height: 1.3em;
+	text-align: center;
+}
+h4 { margin: 0 0 10px; font-size: 1.2em; }
+
+img { border: 0; }
+.x { clear: both; }
+
+#content { margin: 0 auto; width: 960px;}
+#header { height: 300px; }
+#top {
+	padding: 13px 0 0;
+	margin: 0 0 60px;
+	color: #fff;
+	height: 31px;
+	text-align: right;
+}
+#pitch { clear: left; float: left; width: 610px; font-size: 1.2em; padding: 5px 0 0; color: #59690C; margin: 0 0 20px; }
+
+#menu { float: right; margin: 10px 15px 0 0; }
+#menu li { display: inline; }
+#menu li a { float: left; color: #EFF4D7; font-size: 1.2em; margin: 0 0 0 20px; padding: 4px; }
+#menu li a:hover, #menu li a.current {
+	color: #FF0000;
+	border-bottom: 1px solid #A5BE2E;
+}
+
+#cols { clear: both; }
+.col {
+	float: left;
+	width: 270px;
+	margin: 0 50px 0 0;
+}
+.last { position: relative; float: right; margin: -76px 0 0; background: #fff; width: 280px; }
+.col.last div { padding: 12px; }
+.img { clear: both; margin: 0 0 15px; border: 1px solid #ddd; padding: 5px; }
+.date { margin: 0 0 12px; color: #444; }
+.col h4 { background: #83981F; padding: 15px; color: #fff; }
+
+#main { float: left; clear: both; width: 640px; font-size: 1.2em; }
+.left { float: left; margin: 0 30px 10px 0; }
+#main p { text-align: justify; }
+
+#footer {
+	clear: both;
+	border-top: 1px solid #ddd;
+	color: #999;
+	padding: 20px 0 5px 0;
+	text-align: right;
+}
+#right { float: right; }
+#footer p { margin: 0 0 6px; }
+#footer a {
+	color: #000;
+	margin: 0 0 0 5px;
+}
+
+#content #form1 #cols .col table tr td {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #000;
+	margin: auto;
+	text-align: right;
+}
+#l {
+	text-align: left;
+}
+#content #form1 #cols .col table {
+	text-align: left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+llll {
+	text-align: left;
+}
+table {
+	text-align: left;
+	color: #000;
+}
+#cols {
+	text-align: left;
+}
+#cols {
+	text-align: left;
+}
+#radio2 {
+	text-align: left;
+}
+#content #form1 #cols .col table tr td p label {
+	text-align: left;
+}
+#content #form1 #cols .col table {
+	text-align: left;
+}
+#content #form1 #cols .col table {
+	text-align: center;
+}
+#content #header #pitch table tr td {
+	color: #000;
+}
+#content #form1 #cols h3 {
+	color: #000;
+}
+#content #form1 #cols .col table tr td {
+	text-align: right;
+}
+#content #form1 #cols .col table tr td br {
+	text-align: right;
+}
+#content #form1 #cols .col table tr td label {
+	text-align: left;
+
+}
+#content #form1 #cols .col table tr td {
+	text-align: left;
+}
+#content #form1 #cols .col table {
+	text-align: right;
+}
+#content #form1 #cols #pass {
+	text-align: center;
+}
+#content #frmSearch #cols table tr th table {
+	font-size: 16px;
+	color: #000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
+}
+#content #form1 #cols #pass .col table tr td {
+	text-align: right;
+}
+#content #form1 #cols #pass .col table tr td .style1 #textfield {
+	text-align: right;
+}
+#content #frmSearch #cols table tr th {
+	text-align: center;
+	font-size: 14px;
+}
